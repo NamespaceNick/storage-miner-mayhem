@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1337594988865470}
+  m_IsPrefabAsset: 1
+--- !u!1 &1337594988865470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4345379145434614}
+  - component: {fileID: 114866921686866796}
+  m_Layer: 0
+  m_Name: MainCameraContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4345379145434614
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1337594988865470}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114866921686866796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1337594988865470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31ddb610185c854b8c307cd7c884248, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: -10}
+  splitscreenDistanceMultiplier: 1.5
+  centerCameraDistanceMultiplier: 2.5
+  parallaxModifier: 1.5
+  cameraSize: 24
+  dividerScaleMultiplier: 0.003
+  maxDividerSize: 1.5
+  lerpSpeed: 0.05
+  backgroundCameraPrefab: {fileID: 1021501291099158, guid: 02b7c0de902a32c4f8e6a049adecf52a,
+    type: 2}
+  voronoiCameraPrefab: {fileID: 1381767496642164, guid: da85617700dac194399ae1e91da087f9,
+    type: 2}
+  cameraContainerPrefab: {fileID: 1545620862667322, guid: 9298b1bcf3686c5429fa8c7d44f799f9,
+    type: 2}
+  voronoiCanvasPrefab: {fileID: 1769972410616444, guid: 8987bc6deffc0b4488f2a736136c29bb,
+    type: 2}
+  voronoiRendererPrefab: {fileID: 1477961669008500, guid: 81922717093f2704e8fa9ec20095a864,
+    type: 2}
+  splitscreenDividerPrefab: {fileID: 1052188873359156, guid: 1279702501390ea43b221ba8325bc853,
+    type: 2}
+  playerName1: Avatar 1
+  playerName2: Avatar 2
